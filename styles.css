@@ -6,5 +6,60 @@
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    
+    flex-wrap: wrap;
+}
+.Cuerpo de la pagina{
+    width: 100%;
+    padding: 20px;
+    font-size: 1,5rem;
+    font-weight: 500;
+    font-size: 24px;
+}
+.articulos-destacados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px;
+}
+.articulos-destacados__articulo{
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #c3c7cb;
+    margin-bottom: 20px;
+    height: 105px;
+    width: 376px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #3A3B3C;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.articulos-destacados__tag{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12.8px;
+}
+.articulos-destacados__titulo{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 0px 16px;
+    height: 24px;
+}
+.articulos-destacados__sumario{
+    -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-size: 12.8px;
+    font-weight: 400;
+    margin: 0px;
+    max-height: 46.08px;
+    min-height: 46.08px;
 }
